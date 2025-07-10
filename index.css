@@ -1,0 +1,93 @@
+body {
+    margin: 0 auto;
+}
+header {
+    background-image: url('./Assets/Hero-bg.png');
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
+.banner {
+    text-align: center;
+    padding: 50px 0;
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.productive {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: rgba(221, 130, 233, 0.212)
+}
+.productive h1 {
+    color: #4E47FF;
+}
+.stat-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+  'color' #FFFF55;
+}
+.users {
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .reviewer {
+    display: flex;
+
+} */
+ .rev-img {
+    border-radius: 50%;
+ }
+.touch {
+    display: flex;
+    gap: 50px;
+}
+.focus {
+    text-align: center;
+}
+.focus-text {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: white;
+    text-align: center;
+}
+.footer-links li {
+    list-style: none;
+    display: inline;
+    gap: 20px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: black;
+}
