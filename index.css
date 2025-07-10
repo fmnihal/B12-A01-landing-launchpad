@@ -1,17 +1,36 @@
-body {
-    margin: 0 auto;
+/* body {
+    margin: 0 200px;
+} */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
-header {
+.header {
     background-image: url('./Assets/Hero-bg.png');
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 150px;
+}
+.banner {
+    text-align: center;
+    margin: 150px 0;
+}
+.banner h1 {
+    font-size: 65px;
+}
+.banner button {
+    margin-top: 37px;
+    margin-bottom: 150px;
 }
 .btn {
     background-color: #4E47FF;
     color: white;
+    height: 50px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -21,20 +40,29 @@ nav {
     background-color: yellow;
     color: black;
 }
-.banner {
-    text-align: center;
-    padding: 50px 0;
+main {
+    background-color: white;
+}
+h2 {
+    font-size: 42px;
 }
 .action {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    height: 328px;
+    margin: 100px 100px;
+}
+.action-right img {
+    border-radius: 48px;
 }
 .productive {
     padding: 50px 80px;
     text-align: center;
-    background-color: rgba(221, 130, 233, 0.212)
+    background-color: rgba(221, 130, 233, 0.212);
+    height: 306px;
+    margin: 100px 100px;
 }
 .productive h1 {
     color: #4E47FF;
@@ -43,7 +71,13 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-top: 20px; */
+    margin-top: 40px;
+}
+.stat {
+    gap: 40px;
+}
+.stat-number {
+    font-size: 30px;
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -54,33 +88,70 @@ nav {
   'color' #FFFF55;
 }
 .users {
+    height: 342px;
+    margin: 100px 100px;
+}
+.users-title {
     text-align: center;
 }
 .card-container {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
+}
+.card {
+    padding: 24px;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card-text{
+    padding: 24px 0;
+}
+.card-rev {
+    display: flex;
     align-items: center;
 }
-/* .reviewer {
-    display: flex;
-
-} */
- .rev-img {
+.rev-img {
     border-radius: 50%;
- }
-.touch {
-    display: flex;
-    gap: 50px;
 }
 .focus {
     text-align: center;
+    background-color: aliceblue;
+    height: 700px;
+    margin-top: 100px;
+    padding-top: 1px;
 }
-.focus-text {
-    margin-bottom: 20px;
+.focus-text{
+    margin: 71px 150px 20px 150px;
+}
+.focus-img{
+    margin: 20px 150px 71px 150px;
+}
+.focus p {
+    margin: 20px 0;
+}
+.touch {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin: 100px 100px;
+    padding: 71px 0;
+}
+.touch h1 {
+    font-size: 97px;
+}
+.touch button {
+    width: 100%;
 }
 footer {
-    background-color: white;
+    background-color: aliceblue;
     text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    height: 228px;
+}
+.footer-content h1 {
+    color: #4E47FF;
 }
 .footer-links li {
     list-style: none;
