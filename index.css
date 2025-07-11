@@ -1,6 +1,4 @@
-/* body {
-    margin: 0 200px;
-} */
+
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -15,10 +13,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 150px;
+    padding: 50px 10%;
+}
+nav h1 {
+    font-size: 50px;
+    color: #4E47FF;
 }
 .banner {
     text-align: center;
     margin: 150px 0;
+    padding: 0 10%;
 }
 .banner h1 {
     font-size: 65px;
@@ -33,7 +37,7 @@ nav {
     height: 50px;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .btn:hover {
@@ -42,6 +46,7 @@ nav {
 }
 main {
     background-color: white;
+    padding: 0% 10%;
 }
 h2 {
     font-size: 42px;
@@ -52,32 +57,40 @@ h2 {
     align-items: center;
     gap: 100px;
     height: 328px;
-    margin: 100px 100px;
+    margin: 100px 10%;
 }
 .action-right img {
     border-radius: 48px;
 }
 .productive {
-    padding: 50px 80px;
+    
     text-align: center;
     background-color: rgba(221, 130, 233, 0.212);
     height: 306px;
-    margin: 100px 100px;
+    margin: 100px 0;
+    border-radius: 24px;
+}
+.productive-container {
+    padding: 25px 80px 25px;
+    height: 121px;
 }
 .productive h1 {
     color: #4E47FF;
+    margin-bottom: 40px;
+    height: 45px;
 }
 .stat-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
 }
 .stat {
     gap: 40px;
+    justify-content: space-around;
+    padding-bottom: 50px;
 }
 .stat-number {
-    font-size: 30px;
+    font-size: 20px;
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -89,7 +102,7 @@ h2 {
 }
 .users {
     height: 342px;
-    margin: 100px 100px;
+    margin: 100px 10% 200px;
 }
 .users-title {
     text-align: center;
@@ -103,6 +116,7 @@ h2 {
     padding: 24px;
     background-color: aliceblue;
     box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
 }
 .card-text{
     padding: 24px 0;
@@ -110,16 +124,19 @@ h2 {
 .card-rev {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
-.rev-img {
+.rev-img img {
     border-radius: 50%;
 }
+
 .focus {
     text-align: center;
     background-color: aliceblue;
     height: 700px;
     margin-top: 100px;
     padding-top: 1px;
+    border-radius: 14px;
 }
 .focus-text{
     margin: 71px 150px 20px 150px;
@@ -127,14 +144,18 @@ h2 {
 .focus-img{
     margin: 20px 150px 71px 150px;
 }
+.focus-img img {
+    border-radius: 48px;
+}
 .focus p {
     margin: 20px 0;
 }
+
 .touch {
     display: flex;
-    gap: 50px;
     justify-content: space-between;
-    margin: 100px 100px;
+    align-items: center;
+    margin: 0 10%;
     padding: 71px 0;
 }
 .touch h1 {
@@ -152,6 +173,7 @@ footer {
 }
 .footer-content h1 {
     color: #4E47FF;
+    font-size: 50px;
 }
 .footer-links li {
     list-style: none;
